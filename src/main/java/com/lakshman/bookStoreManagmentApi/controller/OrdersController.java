@@ -11,7 +11,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrdersController {
     @Autowired
     private OrdersService ordersService;
-    @PostMapping("/api/orders")
-    public ResponseEntity<Order>
 
 }
